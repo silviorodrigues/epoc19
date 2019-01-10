@@ -1,0 +1,58 @@
+.schedule
+  background-color: $white
+
+.schedule-day
+  background-color: $gray-light
+  padding: 25px
+  margin-bottom: 25px
+
+  &__name
+    color: $red
+    font-weight: bold
+    font-size: 1.3em
+    margin-bottom: 20px
+
+.schedule-time
+  display: flex
+  padding: 20px 0 
+  border-bottom: 1px solid $gray
+
+  &:last-of-type
+    border-bottom: 0
+  
+  &__hour
+    font-weight: bold
+    font-size: 1.3em
+    margin-right: 25px
+
+  &__events
+    li
+      padding: 15px 0
+
+      &:first-of-type
+        padding-top: 0
+
+      &:first-child:nth-last-child(1)
+        padding: 0
+
+    p
+      margin-bottom: 5px
+
+.schedule-badge
+  padding: 2px 10px
+  font-weight: bold
+  font-size: .8em
+  border-radius: 10px
+  line-height: 0
+  margin-top: 20px
+
+  &.estrela
+    background-color: $badge-yellow
+
+  &.goncalves
+    background-color: $badge-green
+    color: $white
+
+  &.gamt
+    background-color: $badge-blue
+    color: $white
