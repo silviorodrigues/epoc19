@@ -75,6 +75,7 @@
   <section class="places" id="places">
     <div class="container">
       <h2>Locais</h2>
+      <div id="map" class="map"></div>
     </div>
   </section>
 
@@ -82,5 +83,48 @@
     <a href="{{site.subscribe_link}}" class="button-gold" target="_blank">inscreva-se</a>
     <p>12º Encontro Paulista da Ordem da Cavalaria</p>
   </footer>
+
+  <script>
+    function initMap() {
+      var places = [
+        {name: 'Loja Estrela', icon: 'star', coord: {lat: -23.103802, lng: -45.702083}},
+        {name: 'Santander', icon: 'dollar', coord: {lat: -23.100973, lng: -45.706715}},
+        {name: 'Caixa Econômica', icon: 'dollar', coord: {lat: -23.099827, lng: -45.705172}},
+        {name: 'Praça da Bandeira', icon: 'map-pin', coord: {lat: -23.100399, lng: -45.705440}},
+        {name: 'Japa Lanches', icon: 'food', coord: {lat: -23.099342, lng: -45.703700}},
+        {name: 'Cartel Hamburgueria', icon: 'food', coord: {lat: -23.103097, lng: -45.708455}},
+        {name: 'Hotel Ideal', icon: 'bed', coord: {lat: -23.102668, lng: -45.705623}},
+        {name: 'Portal da Esfiha', icon: 'food', coord: {lat: -23.102187, lng: -45.704652}},
+        {name: 'Bar Santa Teresa', icon: 'drink', coord: {lat: -23.105317, lng: -45.710364}},
+        {name: 'Bar Boa Prosa', icon: 'drink', coord: {lat: -25.411078, lng: -49.258818}},
+        {name: 'Hospital', icon: 'medical', coord: {lat: -23.104489, lng: -45.704351}},
+        {name: 'Banco do Brasil', icon: 'dollar', coord: {lat: -23.103986, lng: -45.704221}},
+        {name: 'Bar Vila Madá', icon: 'drink', coord: {lat: -23.106305, lng: -45.704083}},
+        {name: 'ETEC', icon: 'star', coord: {lat: -23.106650, lng: -45.701483}},
+        {name: 'GAMT', icon: 'star', coord: {lat: -23.106982, lng: -45.701776}},
+        {name: 'Loja Gonçalves Ledo', icon: 'star', coord: {lat: -23.103250, lng: -45.696137}},
+        {name: 'Pizza 1', icon: 'food', coord: {lat: -23.110322, lng: -45.704295}},
+        {name: 'Arcadas Hotel', icon: 'bed', coord: {lat: -23.109937, lng: -45.704167}},
+        {name: 'Batalhão da Polícia Militar', icon: 'police', coord: {lat: -23.108783, lng: -45.702750}},
+        {name: 'GranVale Hotel', icon: 'bed', coord: {lat: -23.107570, lng: -45.698104}}
+      ];
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -23.1039547, lng: -45.7042932,},
+        zoom: 15
+      });
+
+      for(place in places) {
+        new google.maps.Marker({
+          position: places[place].coord,
+          map: map,
+          title: places[place].name,
+          icon: '/assets/images/icons/' + places[place].icon + '.png'
+        });
+      }
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyrGa3MvZEsoApMp36AOKrLSCyTOMlFcw&callback=initMap" async defer></script>
 </body>
 </html>
