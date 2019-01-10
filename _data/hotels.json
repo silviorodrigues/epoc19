@@ -1,0 +1,17 @@
+[
+  {
+    "image": "hotel-01.jpg",
+    "name": "Hotel Ideal",
+    "contact": "<span>(12) 3652-3746</span>"
+  },
+  {
+    "image": "hotel-02.jpg",
+    "name": "Arcadas Hotel",
+    "contact": "<a href='http://arcadashotel.com.br/' target='_blank'>arcadashotel.com.br</a>"
+  },
+  {
+    "image": "hotel-03.jpg",
+    "name": "GranVale Hotel",
+    "contact": "<a href='http://www.granvalehotel.com.br/' target='_blank'>granvalehotel.com.br</a>"
+  } 
+]

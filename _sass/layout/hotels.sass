@@ -1,0 +1,33 @@
+.hotels
+  background-color: $gray-dark
+
+.hotels-list
+  display: flex
+  justify-content: space-around
+
+
+  .hotel
+    display: flex
+    flex-direction: column
+
+    &__informations
+      background-color: $white
+      padding: 20px
+
+      p
+        color: $red
+        font-weight: bold
+        font-size: 1.3em
+        margin-bottom: 20px
+
+      a
+        text-decoration: none
+        color: $blue
+
+@media screen and (max-width: 1024px)
+  .hotels-list
+    flex-direction: column
+    align-items: center
+
+    .hotel
+      margin-bottom: 30px

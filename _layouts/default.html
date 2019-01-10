@@ -54,5 +54,22 @@
       {% endfor %}
     </div>
   </section>
+
+  <section class="hotels" id="hotels">
+    <div class="container">
+      <h2>Hotéis</h2>
+      <div class="hotels-list">
+        {% for hotel in site.data.hotels %}
+          <div class="hotel">
+            <img src="/assets/images/{{hotel.image}}" alt="Foto de {{hotel.name}}">
+            <div class="hotel__informations">
+              <p>{{hotel.name}}</p>
+              {{hotel.contact}}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 </body>
 </html>
