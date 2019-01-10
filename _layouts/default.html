@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>{{site.title}}</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
 <body>
   <div class="home">
-    <img src="/assets/images/epoc19-logo.png" alt="Logo EPOC 2019">
+    <img src="{{ site.baseurl }}/assets/images/epoc19-logo.png" alt="Logo EPOC 2019">
     <p>21, 22 e 23 de Abril de 2019</p>
     <span>Caçapava, SP</span>
     <a href="{{site.subscribe_link}}" class="button-gold" target="_blank">inscreva-se</a>
   </div>
 
   <nav>
-    <img src="/assets/images/epoc19-logo.png" alt="Logo EPOC 2019">
+    <img src="{{ site.baseurl }}/assets/images/epoc19-logo.png" alt="Logo EPOC 2019">
     <ul>
       <li><a href="#schedule">Cronograma</a></li>
       <li><a href="#hotels">Onde ficar?</a></li>
@@ -61,7 +61,7 @@
       <div class="hotels-list">
         {% for hotel in site.data.hotels %}
           <div class="hotel">
-            <img src="/assets/images/{{hotel.image}}" alt="Foto de {{hotel.name}}">
+            <img src="{{ site.baseurl }}/assets/images/{{hotel.image}}" alt="Foto de {{hotel.name}}">
             <div class="hotel__informations">
               <p>{{hotel.name}}</p>
               {{hotel.contact}}
