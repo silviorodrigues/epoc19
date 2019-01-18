@@ -2,22 +2,22 @@
   {
     "name": "Sexta",
     "time": [
-      { "hour": "23:00", "events": [{"name": "Checkin", "place": "estrela"}] }
+      { "hour": "23:00", "events": [{"name": "Checkin", "place": "gamt"}] }
     ]
   },
   {
     "name": "Sábado",
     "time": [
       { "hour": "06:30", "events": [{"name": "Café da manhã", "place": "estrela"}] },
-      { "hour": "09:00", "events": [{"name": "Abertura", "place": "estrela"}] },
-      { "hour": "10:00", "events": [{"name": "Abertura dos Stands", "place": "estrela"}] },
+      { "hour": "09:00", "events": [{"name": "Abertura", "place": "gamt"}] },
+      { "hour": "10:00", "events": [{"name": "Abertura dos Stands", "place": "gamt"}] },
       { "hour": "11:00",
         "events": [
           {"name": "Capela", "place": "estrela"},
           {"name": "Salém", "place": "goncalves"}
         ]
       },
-      { "hour": "12:00", "events": [{"name": "Almoço", "place": "estrela"}] },
+      { "hour": "12:00", "events": [{"name": "Almoço", "place": "etec"}] },
       { "hour": "14:30",
         "events": [
           {"name": "Ex - Templ", "place": "estrela"},
@@ -36,13 +36,13 @@
       { "hour": "17:00", "events": [{"name": "Cadência", "place": "goncalves"}] },
       { "hour": "17:30", "events": [{"name": "Palestra amigo Cadu", "place": "gamt"}] },
       { "hour": "18:30", "events": [{"name": "Banho", "place": "estrela"}] },
-      { "hour": "20:00", "events": [{"name": "Jantar / Honoríficos", "place": "estrela"}] }
+      { "hour": "20:00", "events": [{"name": "Jantar / Honoríficos", "place": "gamt"}] }
     ]
   },
   {
     "name": "Domingo",
     "time": [
-      { "hour": "09:00", "events": [{"name": "Checkin", "place": "estrela"}] }
+      { "hour": "09:00", "events": [{"name": "Checkout", "place": "estrela"}] }
     ]
   },
 ]
