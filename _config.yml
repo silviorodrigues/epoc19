@@ -18,7 +18,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   12º Encontro Paulista da Ordem da Cavalaria em Caçapava - São Paulo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://epoc19.demolaysp.com.br/" # the base hostname & protocol for your site, e.g. http://example.com
-subscribe_link: "https://google.com"
+subscribe_link: "https://www.eventbrite.com.br/e/12-epoc-encontro-paulista-da-ordem-da-cavalaria-tickets-55610171520"
 
 markdown: kramdown
 
