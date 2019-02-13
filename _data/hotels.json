@@ -13,5 +13,10 @@
     "image": "hotel-03.jpg",
     "name": "GranVale Hotel",
     "contact": "<a href='http://www.granvalehotel.com.br/' target='_blank'>granvalehotel.com.br</a>"
-  } 
+  },
+  {
+    "image": "hotel-04.jpg",
+    "name": "Plaza Dutra Hotel",
+    "contact": "<a href='https://www.plazadutrahotel.com.br/' target='_blank'>plazadutrahotel.com.br</a>"
+  }
 ]

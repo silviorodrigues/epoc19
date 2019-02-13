@@ -8,7 +8,7 @@
   {
     "name": "Sábado",
     "time": [
-      { "hour": "06:30", "events": [{"name": "Café da manhã", "place": "estrela"}] },
+      { "hour": "06:30", "events": [{"name": "Café da manhã", "place": "etec"}] },
       { "hour": "09:00", "events": [{"name": "Abertura", "place": "gamt"}] },
       { "hour": "10:00", "events": [{"name": "Abertura dos Stands", "place": "gamt"}] },
       { "hour": "11:00",
@@ -22,19 +22,18 @@
         "events": [
           {"name": "Ex - Templ", "place": "estrela"},
           {"name": "Ébano", "place": "goncalves"},
-          {"name": "Palestra Bruno Freitas", "place": "gamt"}
+          {"name": "Palestra: Heráldica | Construa seu brasão", "place": "gamt"}
         ]
       },
       { "hour": "15:30",
         "events": [
-          {"name": "Triade", "place": "estrela"},
-          {"name": "Palestra CEOC", "place": "gamt"}
+          {"name": "Triade", "place": "estrela"}
         ]
       },
       { "hour": "16:00", "events": [{"name": "Anôn", "place": "goncalves"}] },
-      { "hour": "16:30", "events": [{"name": "Palestra Graus", "place": "gamt"}] },
+      { "hour": "16:30", "events": [{"name": "Palestra", "place": "gamt"}] },
       { "hour": "17:00", "events": [{"name": "Cadência", "place": "goncalves"}] },
-      { "hour": "17:30", "events": [{"name": "Palestra amigo Cadu", "place": "gamt"}] },
+      { "hour": "17:30", "events": [{"name": "Palestra: A psicologia dos Graus: Uma leitura aprofundada das cerimônias", "place": "gamt"}] },
       { "hour": "18:30", "events": [{"name": "Banho", "place": "estrela"}] },
       { "hour": "20:00", "events": [{"name": "Jantar / Honoríficos", "place": "gamt"}] }
     ]
