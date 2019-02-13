@@ -20,14 +20,14 @@
       { "hour": "12:00", "events": [{"name": "Almoço", "place": "etec"}] },
       { "hour": "14:30",
         "events": [
-          {"name": "Ex - Templ", "place": "estrela"},
+          {"name": "Ex - Templário", "place": "estrela"},
           {"name": "Ébano", "place": "goncalves"},
           {"name": "Palestra: Heráldica | Construa seu brasão", "place": "gamt"}
         ]
       },
       { "hour": "15:30",
         "events": [
-          {"name": "Triade", "place": "estrela"}
+          {"name": "Tríade", "place": "estrela"}
         ]
       },
       { "hour": "16:00", "events": [{"name": "Anôn", "place": "goncalves"}] },
@@ -41,7 +41,7 @@
   {
     "name": "Domingo",
     "time": [
-      { "hour": "09:00", "events": [{"name": "Checkout", "place": "estrela"}] }
+      { "hour": "06:00", "events": [{"name": "Checkout", "place": ""}] }
     ]
   },
 ]
