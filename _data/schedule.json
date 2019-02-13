@@ -31,10 +31,10 @@
         ]
       },
       { "hour": "16:00", "events": [{"name": "Anôn", "place": "goncalves"}] },
-      { "hour": "16:30", "events": [{"name": "Palestra", "place": "gamt"}] },
+      { "hour": "16:30", "events": [{"name": "Palestra: Desmistificando a liderança: qual seu propósito em ser líder?", "place": "gamt"}] },
       { "hour": "17:00", "events": [{"name": "Cadência", "place": "goncalves"}] },
       { "hour": "17:30", "events": [{"name": "Palestra: A psicologia dos Graus: Uma leitura aprofundada das cerimônias", "place": "gamt"}] },
-      { "hour": "18:30", "events": [{"name": "Banho", "place": "estrela"}] },
+      { "hour": "18:30", "events": [{"name": "Banho", "place": "jequitiba"}] },
       { "hour": "20:00", "events": [{"name": "Jantar / Honoríficos", "place": "gamt"}] }
     ]
   },
